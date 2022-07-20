@@ -1,0 +1,1 @@
+<div class="parallax " style="background-image: url({{asset('images/air/banner_c.jpg')}});height:40vh; "></div>

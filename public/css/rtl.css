@@ -1,0 +1,69 @@
+/* right To left Style */
+html {
+    direction: rtl;
+}
+
+html[data-menu=leftalign] #logo_right_button {
+    right: 20px;
+}
+
+body.js_nav .mobile_menu_wrapper, html[data-menu=leftmenu] body.js_nav .mobile_menu_wrapper {
+    direction: ltr;
+    text-align: right;
+}
+
+#page_content_wrapper .sidebar .content .textwidget, .page_content_wrapper .sidebar .content .textwidget,
+.mobile_main_nav li a, #sub_menu li a, .mobile_menu_wrapper .sidebar_wrapper a, .mobile_menu_wrapper .sidebar_wrapper, #close_mobile_menu i, .mobile_menu_wrapper .social_wrapper ul li a, html[data-menu=hammenufull] #copyright, .mobile_menu_wrapper .sidebar_wrapper h2.widgettitle {
+    text-align: right;
+}
+
+[class^="ti-"], [class*=" ti-"] {
+    float: right;
+    margin-left: 10px;
+}
+
+.mobile_menu_wrapper .mobile_menu_content .social_wrapper ul li a i {
+    font-size: 24px;
+    line-height: 24px;
+    float: right;
+    margin-left: 13px;
+}
+
+body.js_nav .mobile_menu_wrapper #mobile_menu_close.button span {
+    float: left;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
+#footer .sidebar_widget li h2.widgettitle {
+    text-align: right;
+}
+
+.mobile {
+    direction: ltr;
+}
+
+.social_wrapper.shortcode ul li.whatsapp a {
+    background: green;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.one_third {
+    float: right;
+    margin-right: 4%;
+    display: grid;
+}
+
+.one_third span {
+    margin: 0;
+    margin-right: 22px;
+}
+
+#footer ul.sidebar_widget li ul li.whatsapp {
+    text-align: right;
+}

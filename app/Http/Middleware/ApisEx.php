@@ -20,7 +20,7 @@ class ApisEx
             return response()->json('UnAuthoraized',401);
         } elseif (!$request->header('MrAli-Api') == 'ali-abou-motta') {
             return response()->json('UnAuthoraized',401);
-        } elseif (!$request->route('key') == 'fasfjkjsdf5ds6f56s5df6') {
+        } elseif (!$request->route('key') === 'fasfjkjsdf5ds6f56s5df6') {
             return response()->json('UnAuthoraized',401);
         }
         return $next($request);
